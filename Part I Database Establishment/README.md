@@ -42,12 +42,12 @@ Here is the example of the dataset:
 
 **Data Sorting**
 
-sort the data with the correct order using ordernumer + its ordernumberline
+To start with, sort the order with 2 layers:
 
 *step 1: enable filter 
 *step 2: ustom sort ordernumer + ordernumberline 
 
--- pic --
+![103 data sorting](images/103_data_sorting.png)
 
 **Redundency Removal**
 
@@ -65,36 +65,49 @@ Here are the columns that were removed and the reasons why:
 it's also observed thay some datetime are text strings, not real numeric numbers.
 convert using "text to columns" to assign DMY to it
 
--- pic --
+![data](images/104_date_handling.png)
 
 later transfer all date to yyyy-mm-dd for the MySQL standard 
 
 ## 1.2 Relational Database Design
 
-step 1. draft relational dataset using quickDBD 
+* Step 1. draft relational dataset using [quickDBB](https://www.quickdatabasediagrams.com/)
 
--- pic --
+![database draft](images/database_draft.png)
 
 it's important to note that this relational database is designed based on the existing data not the optimal strucutre. There are room to growed in the future when there are more complete data on hand, for example, shippment status can improved with ship date or recording the problem encounter.
 
-step 2: assigne customer id since it's not existing yet
+* Step 2: assign customer id since it's not existing yet
 
-step 3: remove duplication of products/customers (optional: the import wizard will automatically do it too)
+1. use fuciton ```Unique()``` to list out all unique clients name
+2. then assign a customer id using simple method  ```="CUS 1000" & ROW(A2)```
+3. use Xlookup to compare and put the new assigned id back to the main sheet
+![xlookup](images/106_xlookup.png)
 
-stpe 4: split into 3 csv files
+* Step 3: remove duplication of products/customers (optional: the import wizard will automatically do it too)
+
+* Step 4: split into 3 csv files
+
+The splited tables mirroring the databse draft above can be found [Here](...) 
+
 
 ## 1.3 Database Creation
 
-step 1. create database, it's recommendable to use password 
+* Step 1. create database using mySQL, it's recommendable to use password 
 
-step 2.create scheme and tables
+* Step 2. create scheme and tables 
 
--- SQL code --
+ open the SQL script below and run, the corresponding tables will be creates
 
-step 3. import using table import wizard
+ [SQL script for data base creation](SQL%20script/database_creation_auto.sql)
 
-step 4. confrirm the dataset is intact
+* Step 3. import using table import wizard
 
+![import](images/107_import_wizard.png)
+
+* Step 4. confrirm the dataset is intact
+
+![preview](images/108_preview.png)
 
 
 
