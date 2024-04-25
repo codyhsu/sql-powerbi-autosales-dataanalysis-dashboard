@@ -1,7 +1,7 @@
 ## 2. Data Insight
 
 
-[2.1 **Data Exploration with SQL**:](https://github.com/codyhsu/data_analysis/edit/main/SQL%20sales%20project/Part%20II%20Data%20Insight.md#21-data-inspection-and-summary)
+2.1 **Data Exploration with SQL**:
 Use SQL to gain an overview of the dataset, identifying key insights and trends.
   
 2.2 **Visualization Selection**: 
@@ -14,8 +14,12 @@ Prepare the necessary SQL scripts to integrate and connect MySQL and PowerBI.
 
 **Orders and Salses**
 
---pic--
---pic--
+> SQL Query of this part is [Here](SQL_script/autosales_orders.sql)
+
+![sales](images/201sales_and_orders.png)
+
+![status](images/202status.png)
+
 
 * 298 distincts order with 2747 items between 2018-01-04 and 2020-05-31
 * total sales are 976,022,177 Euros with an average of 355,305 Euros per order
@@ -24,8 +28,12 @@ Prepare the necessary SQL scripts to integrate and connect MySQL and PowerBI.
 
 **Customers**
 
---pic--
---pic--
+> SQL Query of this part is [Here](SQL_script/autosales_clients.sql)
+
+
+![status](images/203clients.png)
+![country](images/204country.png)
+![top clients](images/205top_clients.png)
 
 * 89 clients from 19 countries
 * most of them (32) are form USA, 12 from France, 5 each from Australia and Spain
@@ -34,9 +42,16 @@ Prepare the necessary SQL scripts to integrate and connect MySQL and PowerBI.
 
  **Products**
 
+> SQL Query of this part is [Here](SQL_script/autosales_products.sql)
+
+
+![status](images/206product.png)
+![status](images/207product_category.png)
+![status](images/208profit.png)
+
 * There are 7 categories and 109 distincts products.
 * Categories are:  Classic Cars, Vintage Cars, Motorcycles, Planes, Trucks and Buses,Ships and Trains
-* margin of sales are range from 7.42% to 18.42% [1]
+* margin of sales are range from 7.42% to 18.42% ^[1]
 * Classic cars offer the most variety with 24 products yet with the lowest margin of 6.88%, while train vice versa
 * all categories' top buyers are all from the USA
 
@@ -45,7 +60,7 @@ Prepare the necessary SQL scripts to integrate and connect MySQL and PowerBI.
 
 ### 2.2 Dashboard structure
 
-A. Number Card: 
+A. Number Card
 1. Orders: Total Orders >> define KPIs
 2. Orders:Total Sales >> define KPIs
 3. Orders: Average Sales 
@@ -65,5 +80,6 @@ C. Insight
 
 
 ### 2.3 SQL Script Preparation 
+
 
 
