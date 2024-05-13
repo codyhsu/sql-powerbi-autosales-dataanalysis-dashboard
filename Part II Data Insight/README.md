@@ -1,14 +1,15 @@
 ## 2. Data Insight
 
+This part is for gaining a deeper understanding of the dataset and determining the most relevant insights to visualize in Power BI. SQL will be employed during this session for future scalability.
 
-2.1 **Data Exploration with SQL**:
-Use SQL to gain an overview of the dataset, identifying key insights and trends.
-  
-2.2 **Visualization Selection**: 
-Determine which visualizations are best suited to effectively present and uncover additional insights.
+**1. Data Imspectiom:**
+Use SQL to conduct a comprehensive exploration of the dataset, extracting key information and identifying  trends.
 
-2.1 **SQL Script Preparation**: 
-Prepare the necessary SQL scripts to integrate and connect MySQL and PowerBI.
+**2. Dashboard Element Selection:**
+Carefully select the most appropriate visualizations to effectively communicate insights and reveal additional patterns within the data.
+
+**3. SQL Script Preparation:**
+Prepare the essential SQL scripts required to seamlessly integrate and establish connections between MySQL and Power BI, ensuring smooth data flow and analysis.
 
 ### 2.1 Data Inspection and Summary
 
@@ -58,17 +59,19 @@ Prepare the necessary SQL scripts to integrate and connect MySQL and PowerBI.
 [1] margin are cauculated using 90% of the MSRP as the base price
 
 
-### 2.2 Dashboard structure
+### 2.2 Dashboard Elements Selection
 
-A. Number Card
-1. Orders: Total Orders >> define KPIs
-2. Orders:Total Sales >> define KPIs
-3. Orders: Average Sales 
-4. Products: Total items 
-5. Customers: Total Clients  
+A. Key Figure
+1. Orders: Total Orders
+2. Orders:Total Sales
+3. Orders: Average Sales
+4. Orfers: Total Margin
+5. Products: Number of Category
+6. Products: Total items 
+7. Customers: Total Clients  
 
 B. Proportion
-1. Orders: Status/ Shipped, disputed, canceled (bar or donut)
+1. Orders: Status/ Shipped, disputed, cancelled
 2. Produts: product category (treemap)
 
 C. Insight
@@ -78,8 +81,10 @@ C. Insight
 4. Country vs Sales/profit (can also used for cost calculation in the future)
 5. Dealsize (each order) vs Customer
 
-
 ### 2.3 SQL Script Preparation 
+
+
+
 
 
 
