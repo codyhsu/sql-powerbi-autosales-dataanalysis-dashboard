@@ -1,8 +1,8 @@
-# 2. Data Insight
+# Part II Data Insight
 
 This part is for gaining a deeper understanding of the dataset and determining the most relevant insights to visualize in Power BI. SQL will be employed during this session for future scalability.
 
-[**1. Data Imspectiom:**](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard?tab=readme-ov-file#m%C3%BCller-wheels-auto-sales-interactive-dashboard--data-analysis)
+**1. Data Imspectiom:**
 Use SQL to conduct a comprehensive exploration of the dataset, extracting key information and identifying  trends.
 
 **2. Dashboard Element Selection:**
@@ -185,6 +185,34 @@ C. Insight
 4. Country vs Sales
 5. Dealsize (each order) vs Customer
 
+To prepare Insight Number 5 in Part C, focusing on 'Dealsize', we utilize a 'CASE' statement for defining size categories.
+* Sales exceeding $7000 are classified as 'Large'.
+* Sales between $3000 and $7000 are categorized as 'Medium'.
+* Any sales below $3000 are labeled as 'Small'.
+
+
+```SQL
+SELECT
+    CASE 
+        WHEN o.order_quantity * o.price_sold > 7000 THEN "large"
+        WHEN o.order_quantity * o.price_sold > 3000 THEN "medium"
+        ELSE "small"
+    END AS sales_size,
+    count(o.order_id) AS num_sales_size,
+    SUM(o.order_quantity* o.price_sold) AS total_amount
+FROM orders AS o
+LEFT JOIN products AS p ON o.product_code = p.product_code
+LEFT JOIN customers AS c ON o.client_id = c.client_id
+GROUP BY sales_size;
+
+```
+
+![deal](images/209dealsize.png)
+
+As indicated by the results, the majority of deals fall within the 'Medium' and 'Small' categories, with only a few classified as 'Large'. We will incorporate this 'CASE' statement into the subsequent selection script for more in-depth customer analysis in Power BI.
+
+
+
 ## 2.3 SQL Script Preparation 
 
 
@@ -198,7 +226,7 @@ Below is the SQL script prepared to set the stage for visualization. I've also i
 ``` SQL
 SELECT
 o.order_id, -- A1. number of order
-o.order_quantity, --A2 total sales (quantity* sales)
+o.order_quantity, -- A2 total sales (quantity* sales)
 o.price_sold, -- A2 total sales (quantity* sales) 
 o.order_quantity* o.price_sold AS sales, -- A3, C2, C3, C4
 (o.price_sold - p.MSRP*0.90)* o.order_quantity AS profit, --A4, C1
@@ -207,7 +235,12 @@ p.product_line, -- A5, B2, C1, C2
 c.client_name, --A7, C2
 o.order_status, -- B1
 o.order_date, -- C3
-c.country -- C4
+c.country, -- C4
+CASE 
+        WHEN o.order_quantity * o.price_sold > 7000 THEN "large"
+        WHEN o.order_quantity * o.price_sold > 3000 THEN "medium"
+        ELSE "small"
+END AS sales_size -- C5
 
 FROM orders AS o
 LEFT JOIN products AS p ON o.product_code = p.product_code
