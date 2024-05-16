@@ -29,15 +29,15 @@ This project aims to empower Muller Wheels GmbH with a comprehensive data manage
 ## Tools Used:
 
 * **Excel:** Data inspection, normalization
-* **MySQL:** Database creation, data analysis (SQL queries)
-* **Power BI:** Interactive dashboard development (including DAX)
+* **MySQL:** Database creation, data analysis
+* **Power BI:** Interactive dashboard development 
 
 ## **Structure:**
 
 The project is organized into folders mirroring this document:
 
-Part I Database Establishment
+[Part I Database Establishment](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/962af9ce350f661dff24c365cf18a7c13237db82/Part%20I%20Database%20Establishment)
 
-Part II Data Insight
+[Part II Data Insight](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/962af9ce350f661dff24c365cf18a7c13237db82/Part%20II%20Data%20Insight)
 
-Part III Interactvie Dashboard
+[Part III Interactvie Dashboard](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/962af9ce350f661dff24c365cf18a7c13237db82/Part%20III%20Interactvie%20Dashboard)
