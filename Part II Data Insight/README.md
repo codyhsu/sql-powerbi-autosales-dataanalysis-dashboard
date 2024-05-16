@@ -250,7 +250,9 @@ LEFT JOIN customers AS c ON o.client_id = c.client_id
 
 ## NEXT 
 
-The next phase involves building the dashboard, using the previously prepared scripts to connect SQL with POWER BI. You can access the next session through the following link:" [Link to the next session](lala)
+The next phase involves building the dashboard, using the previously prepared scripts to connect SQL with POWER BI. 
+
+You can access the next session through the following link:" [Link to the next session](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/0668a232c025b17b7776f0af6bd157db0f446295/Part%20III%20Interactvie%20Dashboard)
 
 
 
