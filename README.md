@@ -1,6 +1,6 @@
 # Müller Wheels Auto Sales: Interactive Dashboard & Data Analysis
 
-Author: Cody Hsu | Date updated: 24-04-2024
+Author: Cody Hsu | Date updated: 16-05-2024
 
 ## __Background__
 
@@ -10,16 +10,16 @@ Müller Wheels GmbH is a small-sized German car dealership run by Müller family
 
 This project aims to empower Muller Wheels GmbH with a comprehensive data management solution. Here's a breakdown of the key objectives:
 
-**1. Database Establishment:**
+**1. Database Establishment (Excel)**
 
 - Design and implement a secure and scalable database to centralize customer and sales information.
 - Migrate existing data from Excel spreadsheets.
-
-**2. Data Insight:**
+ 
+**2. Data Insight (MySQL)**
 - Conduct an analysis to deepen their understanding of their business
 - Identify key metrics and insights that illuminate sales performance and customer behavior.
 
-**3. Dashboard Creation:**
+**3. Dashboard Creation (PowerBI)**
 - Develop an interactive dashboard that visualizes KPIs, sales trends and relevant insight.
    
 ## **Data Source:** 
