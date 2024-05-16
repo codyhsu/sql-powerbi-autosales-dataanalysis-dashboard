@@ -76,6 +76,8 @@ Subsequently, ensure consistency by converting all dates to the YYYY-MM-DD forma
 
 ## 1.2 Relational Database Design
 
+
+
 * Step 1. draft relational dataset using [quickDBB](https://www.quickdatabasediagrams.com/)
 
 ![database draft](images/database_draft.png)
@@ -117,6 +119,13 @@ It's crucial to acknowledge that the relational database is structured based on 
 ![preview](images/108_preview.png)
 
 
+## Next
 
+Uncover Business Insights Through Data Analysis (Link to [Part II Data Insight](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/537474b7174cf64295a86883135ba1bb86493140/Part%20II%20Data%20Insight))
+
+* Use MySQL to conduct analyses, deeping  deepen the understanding of their business.
+* Identify key metrics that illuminate sales performance and customer behavior.
+* Prepare SQL scripts to connect to Power BI for data visualization.
+  
 
 
