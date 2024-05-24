@@ -40,4 +40,4 @@ The project is organized into folders mirroring this document:
 
 [Part II Data Insight](Part%20II%20Data%20Insight)
 
-[Part III Interactvie Dashboard](Part%20III%20Interactive%20Dashboard)
+[Part III Interactive Dashboard](Part%20III%20Interactvie%20Dashboard)
