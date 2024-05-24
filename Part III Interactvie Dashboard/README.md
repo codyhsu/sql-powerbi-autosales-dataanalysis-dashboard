@@ -52,8 +52,9 @@ Here is the snapshot of how it looks like:
 * **Bookmark:** Enhance storytelling experience, will be explained in the next chapter.
 * **Number Cards:** Display essential metrics like sales, revenue, and COGS on the left lower part.
 * **Data Insights:** Provide an overview of key trends across the entire timeframe, including product category margins, order activity over time, top 5 client information, and deal size distribution.
-* **Interactive Information Panel:** Located in the bottom left corner, it provides additional context when clicked and can be closed by clicking anywhere within the panel. (**Note:** Due to limitations of the free Power BI version, screenshots cannot be included in this document.)
+* **Interactive Information Panel:** Located in the bottom left corner, it provides additional context when clicked and can be closed by clicking anywhere within the panel. 
 
+ ![304](images/304_info.png)
 
 
 ## 3.3 Storytelling
