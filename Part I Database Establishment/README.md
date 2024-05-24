@@ -121,7 +121,7 @@ It's crucial to acknowledge that the relational database is structured based on 
 
 ## Next
 
-Uncover Business Insights Through Data Analysis (Link to [Part II Data Insight](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/0beb0da4b103f5e440b0e3396ad253be4c57afa6/Part%20II%20Data%20Insight))
+Uncover Business Insights Through Data Analysis (Link to [Part II Data Insight](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/main/Part%20II%20Data%20Insight))
 
 * Use MySQL to conduct analyses, deeping  deepen the understanding of their business.
 * Identify key metrics that illuminate sales performance and customer behavior.
