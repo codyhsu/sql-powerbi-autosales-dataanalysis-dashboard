@@ -38,6 +38,6 @@ The project is organized into folders mirroring this document:
 
 [Part I Database Establishment](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/962af9ce350f661dff24c365cf18a7c13237db82/Part%20I%20Database%20Establishment)
 
-[Part II Data Insight](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/962af9ce350f661dff24c365cf18a7c13237db82/Part%20II%20Data%20Insight)
+[Part II Data Insight](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/0beb0da4b103f5e440b0e3396ad253be4c57afa6/Part%20II%20Data%20Insight)
 
-[Part III Interactvie Dashboard](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/962af9ce350f661dff24c365cf18a7c13237db82/Part%20III%20Interactvie%20Dashboard)
+[Part III Interactvie Dashboard](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/0beb0da4b103f5e440b0e3396ad253be4c57afa6/Part%20III%20Interactvie%20Dashboard)
