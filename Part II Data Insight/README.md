@@ -250,9 +250,14 @@ LEFT JOIN customers AS c ON o.client_id = c.client_id
 
 ## NEXT 
 
-The next phase involves building the dashboard, using the previously prepared scripts to connect SQL with POWER BI. 
+Building on the prepared scripts, we constructed an interactive dashboard in Power BI. This involved:
 
-You can access the next session through the following link:" [Link to the next session](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/0668a232c025b17b7776f0af6bd157db0f446295/Part%20III%20Interactvie%20Dashboard)
+* Connecting the SQL database for seamless data flow.
+* Transforming data into clear visualizations.
+* Adding interactive features for user exploration.
+
+Explore the dashboard's functionalities and captivating visualizations in the next session: 
+You can access the next session through the following link [Part III Interactive Dashboard](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/main/Part%20III%20Interactive%20Dashboard)
 
 
 
