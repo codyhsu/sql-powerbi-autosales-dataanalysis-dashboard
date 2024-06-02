@@ -1,6 +1,6 @@
-# Müller Wheels Auto Sales: Interactive Dashboard & Data Analysis
+# From Excel to PowerBI: Crafting Interactive Sales Dashboards
 
-Author: Cody Hsu | Date updated: 16-05-2024
+Author: Cody Hsu | Date Completed: 23-05-2024
 
 ## __Background__
 
