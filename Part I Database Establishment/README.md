@@ -98,7 +98,7 @@ It's crucial to acknowledge that the relational database is structured based on 
 
 * Step 4: split into 3 csv files
 
-  The splited tables mirroring the databse draft above can be found [Here](dataset/) 
+  The splited tables mirroring the databse draft above can be found [Here](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/main/dataset) 
 
 
 ## 1.3 Database Creation
