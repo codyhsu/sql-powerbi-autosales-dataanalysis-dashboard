@@ -108,7 +108,7 @@ It's crucial to acknowledge that the relational database is structured based on 
 * Step 2. create scheme and tables
 
   open the SQL script below and run, the corresponding tables will be creates:
-   [SQL script for data base creation](SQL%20script/database_creation_auto.sql)
+   [SQL script for data base creation](SQL_script))
 
 * Step 3. import using table import wizard
 
