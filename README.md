@@ -28,9 +28,9 @@ This project aims to empower Muller Wheels GmbH with a comprehensive data manage
 
 ## Tools Used:
 
-* **Excel:** Data inspection, normalization
-* **MySQL:** Database creation, data analysis
-* **Power BI:** Interactive dashboard development 
+* **Excel:** Data inspection, data handling(Datetime), normalization
+* **MySQL:** Database creation, data manipulation, data query, data analysis
+* **Power BI:** Interactive dashboard, database live connection, DAX, bookmark
 
 ## **Structure:**
 
