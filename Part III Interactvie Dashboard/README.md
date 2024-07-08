@@ -84,8 +84,6 @@ Four bookmarks have been created to provide a guided storytelling experience, al
 
  ![308](images/308_bookmark4.png)
 
-Absolutely, you can definitely keep the part you like! The conclusion you have crafted is well-structured and effectively conveys your key takeaways. Here's how you can integrate the preferred section on experience with the rest of the conclusion:
-
 ## Conclusion
 
 This project, titled "AUTOSALES: Data Analysis & Interactive Dashboard," provided a valuable opportunity to experience the entire data analysis pipeline from start to finish. Witnessing the transformation of raw data into an interactive dashboard solidified the importance of:
