@@ -1,6 +1,5 @@
 # Part II Data Insight
-
-This part is for gaining a deeper understanding of the dataset and determining the most relevant insights to visualize in Power BI. SQL will be employed during this session for future scalability.
+Follow the previous session of data handling and database creation (See Part I [Here](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/main/Part%20I%20Database%20Establishment)), this part is for gaining a deeper understanding of the dataset and determining the most relevant insights to visualize in Power BI. SQL will be employed during this session for future scalability.
 
 **1. Data Imspectiom:**
 Use SQL to conduct a comprehensive exploration of the dataset, extracting key information and identifying  trends.
@@ -53,7 +52,7 @@ ORDER BY 2 DESC
 
 
 * 298 distincts order with 2747 items between 2018-01-04 and 2020-05-31
-* total sales are 976,022,177 Euros with an average of 355,305 Euros per order
+* Total sales are 976,022,177 Euros with an average of 355,305 Euros per order
 * There are 6 types of order status: shipped, on hold, in porcess, disputed, resolved and cancelled
 * 92.5% of the orders are successfully shipped, 2.18% are cancelled and 5.32% with other status
 
@@ -157,7 +156,7 @@ ORDER BY 5 DESC
 * There are 7 categories and 109 distincts products.
 * Categories are:  Classic Cars, Vintage Cars, Motorcycles, Planes, Trucks and Buses,Ships and Trains
 * Margin of sales are range from 7.42% to 18.42% [^1].
-* Classic cars offer the most variety with 24 products yet with the lowest margin of 6.88%, while train vice versa
+* Classic cars offer the most variety with 37 products yet with the lowest margin of 6.88%, while train vice versa
 * All categories' top buyers are all from the USA
 
 [^1]: margin are cauculated using 90% of the MSRP as the base price
