@@ -64,7 +64,7 @@ ORDER BY 2 DESC
 -- cutomers --
 SELECT
 	count(distinct(c.client_id)) AS num_client,
-    count(distinct(c.country)) AS num_country
+	count(distinct(c.country)) AS num_country
 FROM customers AS c
 ;
 -- customer by country --
@@ -78,10 +78,10 @@ ORDER BY 2 desc
 
 -- costomer by sales--
 SELECT
-	c.client_name,    
-    sum(o.order_quantity*o.price_sold) AS sales,
-    COUNT(o.order_id) AS num_order,
-    c.country
+	c.client_name,
+	sum(o.order_quantity*o.price_sold) AS sales,
+	COUNT(o.order_id) AS num_order,
+	c.country
 FROM orders AS o
 LEFT JOIN customers AS c ON o.client_id = c.client_id 
 GROUP BY c.client_name, c.country
@@ -107,14 +107,14 @@ LIMIT 5
 -- products count--
 SELECT
 	count(distinct(p.product_line)) AS num_cate,
-    count(distinct(p.product_code)) AS num_product
+	count(distinct(p.product_code)) AS num_product
 FROM products AS p
 ;
 
 -- product by category --
 SELECT
 	p.product_line AS p_cate,
-    count(distinct(p.product_code)) AS num_product
+	count(distinct(p.product_code)) AS num_product
 FROM orders AS o 
 LEFT JOIN products AS p ON o.product_code = p.product_code
 LEFT JOIN customers AS c ON o.client_id = c.client_id
@@ -124,9 +124,9 @@ ORDER BY 2 DESC
 -- product by category & country --
 SELECT
 	p.product_line AS p_cate,
-    count(distinct(p.product_code)) AS num_product,
-    sum(o.order_quantity) AS quantity,
-    c.country
+	count(distinct(p.product_code)) AS num_product,
+	sum(o.order_quantity) AS quantity,
+	c.country
 FROM orders AS o 
 LEFT JOIN products AS p ON o.product_code = p.product_code
 LEFT JOIN customers AS c ON o.client_id = c.client_id
@@ -137,10 +137,10 @@ ORDER BY 1,3 DESC
 -- profit margin --
 SELECT
 	p.product_line,
-    ROUND(avg(o.price_sold),2) AS avg_sold_price,
-    ROUND(avg(p.MSRP),2) AS avg_MSRP,
-    ROUND(avg(o.price_sold) - avg(p.MSRP* 0.9),2) AS AVG_profit,
-    ROUND(((avg(o.price_sold) - avg(p.MSRP* 0.9))/avg(p.MSRP* 0.9))*100,2) AS margin
+	ROUND(avg(o.price_sold),2) AS avg_sold_price,
+	ROUND(avg(p.MSRP),2) AS avg_MSRP,
+	ROUND(avg(o.price_sold) - avg(p.MSRP* 0.9),2) AS AVG_profit,
+	ROUND(((avg(o.price_sold) - avg(p.MSRP* 0.9))/avg(p.MSRP* 0.9))*100,2) AS margin
   
 FROM orders AS o 
 LEFT JOIN products AS p ON o.product_code = p.product_code
@@ -256,7 +256,7 @@ Building on the prepared scripts, we constructed an interactive dashboard in Pow
 * Adding interactive features for user exploration.
 
 Explore the dashboard's functionalities and captivating visualizations in the next session: 
-You can access the next session through the following link [Part III Interactive Dashboard](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/main/Part%20III%20Interactive%20Dashboard)
+You can access the next session through the following link [Part III Interactive Dashboard](https://github.com/codyhsu/sql-powerbi-autosales-dataanalysis-dashboard/tree/main/Part%20III%20Interactvie%20Dashboard)
 
 
 
