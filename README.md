@@ -1,4 +1,4 @@
-# From Excel to PowerBI: Crafting Interactive Sales Dashboards
+# From Excel, SQL to PowerBI: Crafting Interactive Auto Sales Dashboards
 
 Author: Cody Hsu | Date Completed: 23-05-2024
 
